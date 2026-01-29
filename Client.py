@@ -5,7 +5,7 @@ import shlex
 
 
 
-host = "192.168.0.247"
+host = "Add your IP"
 port = 9999
 
 # CREATE SOCKET
