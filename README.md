@@ -1,6 +1,17 @@
 # Net-Agent
-## Please before running the file go into the code and change the HOST to your own IP pls.
-### This is a Linux based Reverse Shell and allows for commands such as directory creation and deletion.Can also allow for listing of files all files in the current directory.
-### YOu may find that nano does not work that is due to nano being execued on the victim machine,if you try and execute cat that should work on the host machine and allow for you to view the file.
 
-### Thank You....
+A lightweight Python reverse shell and listener for remote command execution, designed for educational and authorized penetration testing.
+
+## Features
+
+- TCP listener with persistent connection handling
+- Reverse shell client with command execution
+- Supports `cd` command to change directories
+- Colored console output (listener side)
+- Simple and easy to understand
+
+## Installation
+
+No external dependencies required for basic functionality.  
+Install Colorama for colored output
+
